@@ -38,10 +38,10 @@ Visualize popular sorting algorithms in action and understand how they work, ste
 ## 📸 Screenshots
 
 ### 📍 Home Screen
-![Home Screen](./screenshots/image_1.png)
+![Home Screen](../screenshots/image_1.png)
 
 ### 📍 Selecting Algorithm
-![Algorithm Selection](./screenshots/image_1.png)
+![Algorithm Selection](../screenshots/image_1.png)
 
 ---
 
