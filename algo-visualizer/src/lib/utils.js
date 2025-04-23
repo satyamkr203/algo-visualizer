@@ -1,8 +1,8 @@
-import { generateBubbleSortAnimationArray } from "@/algorithms/bubbleSort";
-import { generateInsertionSortAnimationArray } from "@/algorithms/insertionSort";
-import { generateMergeSortAnimationArray } from "@/algorithms/mergeSort";
-import { generateQuickSortAnimationArray } from "@/algorithms/quickSort";
-import { generateSelectionSortAnimationArray } from "@/algorithms/selectionSort";
+import { generateBubbleSortAnimationArray } from '../algorithms/BubbleSort.js';
+import { generateInsertionSortAnimationArray } from '../algorithms/InsertionSort.js';
+import { generateMergeSortAnimationArray } from '../algorithms/MergeSort.js';
+import { generateQuickSortAnimationArray } from '../algorithms/QuickSort.js';
+import { generateSelectionSortAnimationArray } from '../algorithms/SelectionSort.js';
 
 export function generateRandomNumberFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);

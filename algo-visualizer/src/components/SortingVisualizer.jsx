@@ -1,7 +1,7 @@
-import { Select } from "@/components/input/select";
-import { Slider } from "@/components/input/slider";
-import { useSortingAlgorithmContext } from "@/context/visualizer";
-import { generateAnimationArray, algorithmOptions, sortingAlgorithmsData } from "@/lib/utils";
+import { Select } from '../components/input/Select.jsx';
+import { Slider } from '../components/input/Slider.jsx';
+import { useSortingAlgorithmContext } from '../context/Visualizer.jsx';
+import { generateAnimationArray, algorithmOptions, sortingAlgorithmsData } from '../lib/utils.js';
 import { useState, useEffect } from "react";
 
 export default function SortingVisualizer() {

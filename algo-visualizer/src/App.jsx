@@ -1,5 +1,5 @@
-import { SortingAlgorithmProvider } from "@/context/visualizer";
-import SortingVisualizer from "@/components/SortingVisualizer";
+import { SortingAlgorithmProvider } from './context/Visualizer.jsx';
+import SortingVisualizer from './components/SortingVisualizer.jsx';
 
 function App() {
   return (
